@@ -145,7 +145,7 @@ body {
     }
     .cabecalho_menu{
         justify-content: center;
-        gap:auto;
+        gap: 10px;
     }
     .container{
         flex-direction: column-reverse;
