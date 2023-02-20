@@ -48,6 +48,18 @@ body {
     gap: 40px;
     
 }
+.container_curriculo{
+    width: 70%;
+    padding: 4% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container_curriculo_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 .container_conteudo_titulo {
     font-size: 2.25rem;
     font-family: var(--font-primaria);
@@ -118,18 +130,7 @@ body {
     width: 50%;
     border-radius: 20px;
 }
-.container_curriculo{
-    width: 100%;
-    padding: 4% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.container_curriculo_conteudo{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
+
 .rodape {
     padding: 1.5rem;
     color: var(--cor-primaria);
@@ -151,6 +152,12 @@ body {
         padding: 5%;
     }
     .container_conteudo{
+        width: auto;
+    }
+    .container_curriculo{
+        padding: 5%;
+    }
+    .container_curriculo_conteudo{
         width: auto;
     }
 }
