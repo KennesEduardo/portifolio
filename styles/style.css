@@ -52,6 +52,7 @@ body {
     padding: 4% 15%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .container_curriculo_conteudo{
     width: 100%;
@@ -157,6 +158,6 @@ body {
         padding: 5%;
     }
     .container_curriculo_conteudo{
-        width: 90%;
+        width: auto;
     }
 }
